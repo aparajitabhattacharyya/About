@@ -1,3 +1,14 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+   
+    
+  }
+  .profile{
+    font-size: x-small;
+  }
+
 h1{
     text-align: center;
     color: rgb(113, 113, 249);
@@ -31,3 +42,27 @@ h2{
     text-align: center;
     text-decoration: solid;
 }
+.projects{
+    text-align: center;
+}
+.interests{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+.column {
+    text-align: center;
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
