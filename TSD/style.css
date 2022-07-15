@@ -51,7 +51,7 @@ h2{
 footer{
     text-align: center;
     padding: 3px;
-  background-color: DarkSalmon;
+  background-color: rgb(104, 12, 252);
   color: white;
 }
 .column {
@@ -65,4 +65,7 @@ footer{
     content: "";
     display: table;
     clear: both;
+  }
+  .footer{
+    color: whitesmoke;
   }
